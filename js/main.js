@@ -1,4 +1,6 @@
-$(document).ready()
+$(document).ready(function () {
+    
+
 
 
 $('.contenedor div:gt(0)').hide(); 
@@ -18,3 +20,4 @@ $("#img4").click(function () {
     $("#imagen4").fadeIn("slow");
     $(".carrusel").not("#imagen4").fadeOut("3000");       
 })
+});
